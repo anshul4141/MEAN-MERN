@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding around navbar items */
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position the navbar at the top */
+    width: 100%; /* Make the navbar span the entire width */
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+    /* You can add more styles as needed */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove default bullets */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block; /* Arrange navbar items horizontally */
+    margin-right: 20px; /* Spacing between navbar items */
+}
+
+.navbar a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove default underline */
+    /* You can add more styles as needed */
+}
+
+.navbar a:hover {
+    color: #ff0; /* Change color on hover */
+    /* You can add more styles as needed */
+}
+
+/* Adjust content padding to prevent overlapping with fixed navbar */
+.content {
+    padding-top: 60px; /* Adjust this value according to your navbar height */
+}
